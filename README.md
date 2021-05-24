@@ -32,8 +32,8 @@ Users should be able to:
 
 ### Links
 
-- Solution URL: [Add solution URL here](https://your-solution-url.com)
-- Live Site URL: [Add live site URL here](https://your-live-site-url.com)
+- Solution URL: [https://www.frontendmentor.io/challenges/3column-preview-card-component-pH92eAR2-/hub/html-css-grid-PPabSKCG7](https://www.frontendmentor.io/challenges/3column-preview-card-component-pH92eAR2-/hub/html-css-grid-PPabSKCG7)
+- Live Site URL: [https://bjmontillon.github.io/3columnpreview/](https://bjmontillon.github.io/3columnpreview/)
 
 ## My process
 
