@@ -1,0 +1,197 @@
+@import url('https://fonts.googleapis.com/css2?family=Lexend+Deca&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Big+Shoulders+Display:wght@700&display=swap');
+
+
+:root{
+    --lexend: 'Lexend Deca', sans-serif;
+    --bigShoulders: 'Big Shoulders Display', cursive;
+
+    --Bright-orange: hsl(31, 77%, 52%);
+    --Dark-cyan: hsl(184, 100%, 22%);
+    --Very-dark-cyan: hsl(179, 100%, 13%);
+
+    /* ### Neutral */
+
+    /* paragraph */
+    --Transparent-white: hsla(0, 0%, 100%, 0.75);
+    /* background, headings, buttons */
+    --Very-light-gray: hsl(0, 0%, 95%);
+}
+* {
+    padding: 0;
+    margin: 0;
+}
+
+html {
+
+}
+
+html body {
+    padding: 80px 40px;
+}
+.sedan {
+    grid-area: sedan;
+    background-color: var(--Bright-orange);
+    padding: 20px;
+    border-radius: 10px 10px 0 0;
+}
+
+.suv {
+    grid-area: suv;
+    background-color: var(--Dark-cyan);
+    padding: 20px;
+}
+
+.luxury {
+    grid-area: luxury;
+    background-color: var(--Very-dark-cyan);
+    padding: 20px;
+    border-radius: 0 0 10px 10px;
+}
+
+img {
+    height: 30px;
+    width: 50px;
+}
+
+h1 {
+    font-family: var(--bigShoulders);
+    text-transform: uppercase;
+    color: white;
+    height: 50px;
+    padding-top: 15x;
+}
+
+p {
+    color: white;
+    font-size: 15px;
+    font-family: var(--lexend);
+    letter-spacing: 1px;
+}
+
+.btn {
+    margin-top: 20px;
+}
+
+.btn button {
+    height: 50px;
+    width: 150px;
+    border-radius: 50px;
+    border: 0;
+}
+
+.btn button:hover {
+
+}
+
+.container {
+    display: grid;
+    grid-template-columns: auto;
+    grid-template-rows: 300px 300px 300px;
+    grid-template-areas: 
+    "sedan"
+    "suv"
+    "luxury";
+}
+
+
+
+
+.attribution { 
+    bottom: 0;
+    font-size: 11px; 
+    text-align: center; 
+    justify-content: center;
+    margin-top: 20px;
+    font-size: 15px;
+    font-family: var(--bigShoulders);
+    letter-spacing: 2px;
+}
+    
+.attribution a { 
+    color: var(--Bright-orange); 
+    font-size: 15px;
+    text-decoration: none;
+}
+
+@media only screen and (min-width: 1440px) {
+    
+    .container {
+        grid-template-columns: 350px 350px 350px;
+        grid-template-rows: 1fr;
+        grid-template-areas: 
+        "sedan suv luxury";
+        height: 500px;
+        width: 772px;
+        justify-content: center;
+        
+        margin-left: 300px
+    }
+
+    .sedan {
+        border-radius: 10px 0 0 10px;
+        padding: 50px;
+    }
+
+    .suv {
+        border-radius: 0 0 0 0;
+        padding: 50px;
+    }
+
+    .luxury {
+        border-radius: 0 10px 10px 0;
+        padding: 50px;
+    }
+
+    h1 {
+        margin-top:20px;
+    }
+
+    p {
+        letter-spacing: 3px;
+        font-size: 17px;
+        margin-top: 20px;
+        height: 200px;
+    }
+
+    .btn {
+        bottom: 0;
+        position: relative;
+        clear: both;
+    }
+
+    .btn button {
+        
+    }
+
+}
+/*
+# Front-end Style Guide
+
+## Layout
+
+The designs were created to the following widths:
+
+- Mobile: 375px
+- Desktop: 1440px
+
+## Colors
+
+### Primary
+
+
+
+## Typography
+
+### Body Copy
+
+- Font size: 15px
+
+### Font
+
+- Family: [Lexend Deca](https://fonts.google.com/specimen/Lexend+Deca)
+- Weights: 400
+
+- Family: [Big Shoulders Display](https://fonts.google.com/specimen/Big+Shoulders+Display)
+- Weights: 700
+*/
